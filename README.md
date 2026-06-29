@@ -88,9 +88,9 @@ jupyter notebook notebooks/hydraulic_classification.ipynb
 
 ## Roadmap
 
-- [ ] Stable flag classifier (separate problem — likely needs transient/trend-based features rather than per-cycle summary stats)
-- [ ] Ordinal-aware evaluation (treating severity grades as ordered, not nominal, classes)
+- [ ] Stable flag classifier (separate problem - likely needs transient/trend-based features rather than per-cycle summary stats)
 - [ ] Hyperparameter tuning on weaker targets (valve, accumulator)
+Potentially:
 - [ ] LangChain RAG layer over hydraulic system documentation, grounding classifier outputs in maintenance guidance
 - [ ] Knowledge graph representation (Neo4j) of rig components, linking live classification outputs with historical readings and document knowledge
 - [ ] Conversational front end (Streamlit) for natural-language Q&A over rig health
